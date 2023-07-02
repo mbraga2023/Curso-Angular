@@ -7,12 +7,13 @@
     <div class="container-menu">
     <nav class="main-header__menu">
         <ul>
-            <li> <a>Produtos</a></li>
-            <li> <a><i class="fa-solid fa-cart-shopping"></i>
+            <li> <a routerLink="produtos">Produtos</a></li>
+            <li> <a routerLink="carrinho">
+                <i class="fa-solid fa-cart-shopping"></i>
                 Carrinho
                 <span class="badge-carrinho">{{ carrinhoService.obtemCarrinho().length}}</span>
             </a></li> 
-            <li> <a> Contato
+            <li> <a routerLink="contato"> Contato
                 <i class="fa-solid fa-address-book"></i>
             </a></li>
             <li> <a>
