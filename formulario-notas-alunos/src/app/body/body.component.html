@@ -1,0 +1,23 @@
+<div class="parent-container">
+<table id="alunos">
+  <thead>
+    <tr>
+      <th>Nome do Aluno</th>
+      <th>Nota Média</th>
+      <th>Condição</th>
+      <th></th> <!-- New column for delete button -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let aluno of alunos">
+      <td>{{ aluno.nome }}</td>
+      <td>{{ calcularMedia(aluno.nota1, aluno.nota2) }}</td>
+      <td>{{ verificarCondicao(aluno.nota1, aluno.nota2) }}</td>
+      <td>
+        <button class="delete-button" (click)="deleteAluno(aluno)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
