@@ -6,9 +6,12 @@
 	font: 18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .title-style {
-  font: 24px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font: 30px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   box-sizing: border-box;
   padding: 20px 12px 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 
 }
@@ -95,3 +98,11 @@ select{
 	color:rgb(0, 0, 0);
   font-style: bold;
 }
+
+input[type="text"] {
+	font-size: 18px;
+  }
+
+input[type="number"] {
+	font-size: 18px;
+  }

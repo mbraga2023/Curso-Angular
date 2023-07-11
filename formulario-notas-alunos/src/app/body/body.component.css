@@ -37,4 +37,8 @@
     justify-content: center;
     align-items: center;
   }
-  
+
+  .span-style {
+    font: 16px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ 
+  }
