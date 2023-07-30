@@ -1,5 +1,6 @@
 <?php
 include("conexao.php");
+include ("cors.php");
 
 //obter dados
 $obterDados = file_get_contents("php://input");

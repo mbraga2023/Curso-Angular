@@ -1,5 +1,6 @@
 <?php
 
+
 //variaveis
 $host = 'localhost';
 $username = 'apiuser';
